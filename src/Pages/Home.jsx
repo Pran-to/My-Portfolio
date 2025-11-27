@@ -1,4 +1,6 @@
 import Background from "../components/Background";
+import HeroSection from "../components/HeroSection";
+import Navbar from "../components/Navbar";
 import ThemeToggle from "../components/ThemeToggle";
 
 const Home = () => {
@@ -8,6 +10,11 @@ const Home = () => {
            <ThemeToggle></ThemeToggle>
            {/* Background Effects  */}
            <Background></Background>
+           {/* NaveBar  */}
+           <Navbar/>
+           <HeroSection></HeroSection>
+
+
         </div>
     );
 };
